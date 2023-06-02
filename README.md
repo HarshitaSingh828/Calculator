@@ -18,6 +18,7 @@ the clear method to initialize the calculator's state.
 
 Methods
 The Calculator class includes the following methods:
+
 ● clear: This method sets currentOperand, previousOperand, and operation to their
 initial values. It's used to reset the calculator state.
 ● delete: This method deletes the last character from currentOperand. It uses the
@@ -38,10 +39,13 @@ state of currentOperand, previousOperand, and operation.
 
 
 Event Handling
+
 The code also establishes event handlers for various buttons on the calculator, using the
 querySelector and querySelectorAll methods to select DOM elements based on their data-*
 attributes.
+
 Event handlers are set up for:
+
 ● Number buttons: When a number button is clicked, the number is appended to the
 currentOperand and the display is updated.
 ● Operation buttons: When an operation button is clicked, the operation is chosen
